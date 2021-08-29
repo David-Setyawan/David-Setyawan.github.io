@@ -1,0 +1,44 @@
+.bgcolor.scrolled {
+  background-color: #fff !important;
+  transition: 1s;
+}
+
+.foto-bg {
+  background-image: url("/assets/profil-bg.jpg");
+  background-color: #cccccc;
+  height: 730px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+}
+/* .bgcolor.scrolled a {
+	color: #34312c !important;
+	transition: 1s;
+} */
+
+.landingpage-detail {
+  margin-top: -250px;
+}
+
+#about {
+  margin-top: 110px;
+}
+
+@media only screen and (max-width: 480px) {
+  .detail-about {
+    text-align: justify !important;
+  }
+  .ab-det {
+    text-align: center !important;
+  }
+
+  .work-detail {
+    text-align: center !important;
+  }
+
+  .edu-detail {
+    text-align: center !important;
+  }
+}
